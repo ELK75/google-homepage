@@ -1,0 +1,146 @@
+html {
+	font-family: arial, sans-serif;
+}
+
+img {
+	display: block;
+	height: 120px;
+	width: auto;
+	margin: 0 auto;
+
+	position: relative;
+	top: 100px;
+}
+
+form {
+	text-align: center;
+	padding-top: 120px;
+}
+
+#search_form {
+	width: 450px;
+	height: 40px;
+	padding-left: 15px;
+	padding-right: 40px; 
+	border: 1px solid;
+	border-color: gray;
+	font-size: 18px;
+
+	/* positions the mic */
+	background-image: url(https://raw.githubusercontent.com/n8sb/odin-project/master/google-homepage/images/mic.gif);
+    background-size: 20px 20px;
+    background-position: 475px 9px;
+    background-repeat: no-repeat;
+}
+
+#search_form:focus {
+	border: 1px solid #2F5BB7;
+}
+
+.b_search {
+	text-align: center;
+}
+
+.b_search button {
+	padding: 10px;
+	position: relative;
+	color: gray;
+	margin: 3px;
+	top: 25px;
+	background: #f2f2f2;
+	font-size: 14px;
+	border: 1px solid #f2f2f2;
+}
+
+.b_search button:hover {
+	border: 1px solid gray;
+	font-family: arial;
+	color: black;
+}
+
+.nav {
+	margin-left: 0; padding: 0;
+	position: relative;
+	text-align: right;
+}
+
+.nav img {
+	height: 20px;
+	width: 20px;
+	top: 3px;
+}
+
+.nav ul li{
+	padding-right: 15px;
+	display: inline-block;
+}
+
+.nav ul li a {
+	color: black;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+}
+
+.nav ul li button {
+	height: 33px;
+	width: 80px;
+	background-color: blue;
+	color: white;
+	font-weight: bold;
+	border: 0;
+	border-radius: 3px;
+}
+
+.nav ul li button:hover {
+	border: 1px solid blue;
+}
+
+footer .footer-left{
+	position: absolute;
+	bottom: 0;
+	left: 38px;
+	padding: 0;
+}
+
+footer .footer-left li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+footer .footer-right {
+	position: absolute;
+	bottom: 0;
+	right: 20px;
+	margin-right: 20px;
+}
+
+footer .footer-right li {
+	display: inline-block;
+	padding-right: 5px;
+}
+
+footer ul li a {
+	text-decoration: none;
+	color: #666;
+	font-size: 14px;
+}
+
+footer ul li a:hover {
+	text-decoration: underline;
+}
+
+.gray-footer {
+	background-color: #f2f2f2;
+	z-index: -1;
+	margin: 0; padding: 0;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+}
+
